@@ -38,8 +38,9 @@ Other Features| Additional relevant details
 More details about the dataset can be found [here](https://www.kaggle.com/datasets/pkdarabi/classification-of-travel-purpose).
 
 ## File Descriptions
-- `Ticket_Cancellation_Prediction.ipynb`: Jupyter notebook containing all stages of data exploration, preprocessing, modelling, prediction, and analysis.
-- `ticket_data.csv`: CSV file containing the dataset used for model training and evaluation.
+- `Notebooks/Ticket_Cancellation_Prediction.ipynb`: Jupyter notebook containing all stages of data exploration, preprocessing, modelling, prediction, and analysis.
+- `Model/XGBoost_ROC.png`: ROC curve image for the final model's performance.
+- `data/ticket_data.csv`: CSV file containing the dataset used for model training and evaluation (optional, if included).
 
 ## Data Preprocessing
 Data preprocessing steps include handling missing values, encoding categorical variables, and normalizing numerical features to prepare the dataset for model training.
@@ -82,8 +83,3 @@ git clone https://github.com/P-Darabi/Prediction_Of_Ticket_Cancellation_Acc_98.g
 cd Prediction_Of_Ticket_Cancellation_Acc_98
 pip install -r requirements.txt
 jupyter notebook
-```
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request with any improvements or additions.
-
